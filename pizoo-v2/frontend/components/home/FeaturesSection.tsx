@@ -26,7 +26,7 @@ export default function FeaturesSection() {
     {
       icon: Zap,
       title: 'Super Swipe',
-      description: 'Let someone know you're really interested with a Super Swipe and stand out from the crowd.',
+      description: 'Let someone know you are really interested with a Super Swipe and stand out from the crowd.',
       color: 'from-yellow-500 to-orange-500',
     },
     {
