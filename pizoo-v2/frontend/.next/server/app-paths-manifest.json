@@ -1,3 +1,15 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/swipe-stories/page": "app/swipe-stories/page.js",
+  "/about/page": "app/about/page.js",
+  "/team/page": "app/team/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/blog/[id]/page": "app/blog/[id]/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/terms/page": "app/terms/page.js",
+  "/cookies/page": "app/cookies/page.js",
+  "/download/page": "app/download/page.js",
+  "/safety/page": "app/safety/page.js"
 }
