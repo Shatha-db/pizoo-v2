@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "home": "Home",
+    "swipeStories": "Swipe Stories",
+    "about": "About Us",
+    "team": "Team",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "safety": "Safety Center",
+    "download": "Download"
+  },
+  "footer": {
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "cookies": "Cookie Policy",
+    "safety": "Safety Center",
+    "contact": "Contact Us",
+    "followUs": "Follow Us",
+    "downloadApp": "Download App",
+    "allRightsReserved": "All rights reserved"
+  },
+  "home": {
+    "hero": {
+      "title": "Start Something Epic",
+      "subtitle": "Connect with people who match your vibe. Swipe, chat, and meet amazing people near you.",
+      "cta": "Get Started",
+      "downloadNow": "Download Now"
+    },
+    "features": {
+      "title": "Why Pizoo?",
+      "swipe": {
+        "title": "Swipe Smart",
+        "description": "Our advanced algorithm helps you find your perfect match based on your preferences and interests."
+      },
+      "chat": {
+        "title": "Chat Instantly",
+        "description": "Connect with matches instantly through our seamless messaging experience."
+      },
+      "meet": {
+        "title": "Meet Safely",
+        "description": "Your safety is our priority. Verified profiles and secure platform for peace of mind."
+      }
+    }
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "Something went wrong"
+  }
+}
