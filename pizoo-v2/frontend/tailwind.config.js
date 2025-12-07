@@ -16,8 +16,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        display: ['Manrope', 'sans-serif'],
+        sans: ['var(--font-inter)', 'sans-serif'],
+        display: ['var(--font-manrope)', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-pizoo': 'linear-gradient(135deg, #FF6B9D 0%, #C471ED 100%)',
