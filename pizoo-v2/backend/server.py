@@ -202,4 +202,7 @@ def get_image(image_id: str):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8002)
+    # Port 8000 for local development on Mac
+    # Port 8002 for Emergent environment
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
