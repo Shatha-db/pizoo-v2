@@ -52,8 +52,8 @@ export default function FeaturesSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
         >
+          <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-display font-bold mb-4">
             Why Choose <span className="text-gradient">Pizoo</span>?
           </h2>
