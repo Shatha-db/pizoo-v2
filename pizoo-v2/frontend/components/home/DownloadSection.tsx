@@ -81,8 +81,8 @@ export default function DownloadSection() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
-            className="relative"
           >
+            <div className="relative">
             <div className="relative w-full max-w-md mx-auto">
               {/* Phone Mockup */}
               <div className="relative h-[600px] bg-white rounded-[3rem] shadow-2xl p-4">
