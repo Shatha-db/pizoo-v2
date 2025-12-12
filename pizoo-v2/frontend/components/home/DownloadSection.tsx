@@ -108,6 +108,7 @@ export default function DownloadSection() {
                 <div className="text-4xl">❤️</div>
               </motion.div>
             </div>
+            </div>
           </motion.div>
         </div>
       </div>
