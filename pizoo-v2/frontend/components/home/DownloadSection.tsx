@@ -21,8 +21,8 @@ export default function DownloadSection() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-white"
           >
+            <div className="text-white">
             <h2 className="text-4xl sm:text-5xl font-display font-bold mb-6">
               Download Pizoo Today
             </h2>
