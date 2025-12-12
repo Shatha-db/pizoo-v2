@@ -91,6 +91,7 @@ export default function FeaturesSection() {
 
                 {/* Hover Effect */}
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-pizoo-pink/5 to-pizoo-purple/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></div>
+                </div>
               </motion.div>
             );
           })}
