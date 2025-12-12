@@ -1,0 +1,21 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3],{1032:function(e,t,r){Promise.resolve().then(r.bind(r,2727))},2727:function(e,t,r){"use strict";r.r(t),r.d(t,{default:function(){return o}});var s=r(7437),n=r(2265),a=r(6463);/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(8030).Z)("Lock",[["rect",{width:"18",height:"11",x:"3",y:"11",rx:"2",ry:"2",key:"1w4ew1"}],["path",{d:"M7 11V7a5 5 0 0 1 10 0v4",key:"fwvmzm"}]]);function o(){let e=(0,a.useRouter)(),[t,r]=(0,n.useState)(""),[o,d]=(0,n.useState)("");return(0,s.jsx)("div",{className:"min-h-screen bg-gradient-to-br from-pizoo-pink to-pizoo-purple flex items-center justify-center px-4",children:(0,s.jsxs)("div",{className:"max-w-md w-full bg-white rounded-2xl shadow-2xl p-8",children:[(0,s.jsxs)("div",{className:"text-center mb-8",children:[(0,s.jsx)("div",{className:"w-16 h-16 bg-gradient-pizoo rounded-full flex items-center justify-center mx-auto mb-4",children:(0,s.jsx)(i,{className:"w-8 h-8 text-white"})}),(0,s.jsx)("h1",{className:"text-3xl font-bold text-gradient",children:"Admin Login"}),(0,s.jsx)("p",{className:"text-gray-600 mt-2",children:"Enter your password to access the admin panel"})]}),(0,s.jsxs)("form",{onSubmit:r=>{r.preventDefault(),"admin123"===t?(localStorage.setItem("adminAuth","true"),e.push("/admin/dashboard")):d("Invalid password")},className:"space-y-6",children:[(0,s.jsxs)("div",{children:[(0,s.jsx)("label",{htmlFor:"password",className:"block text-sm font-medium text-gray-700 mb-2",children:"Password"}),(0,s.jsx)("input",{type:"password",id:"password",value:t,onChange:e=>r(e.target.value),className:"w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pizoo-pink focus:border-transparent transition-all",placeholder:"Enter admin password","data-testid":"admin-password-input"})]}),o&&(0,s.jsx)("div",{className:"bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg",children:o}),(0,s.jsx)("button",{type:"submit",className:"w-full btn-gradient","data-testid":"admin-login-button",children:"Login"})]}),(0,s.jsx)("div",{className:"mt-6 text-center text-sm text-gray-500",children:(0,s.jsx)("p",{children:"Demo Password: admin123"})})]})})}},8030:function(e,t,r){"use strict";r.d(t,{Z:function(){return d}});var s=r(2265);/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let n=e=>e.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),a=function(){for(var e=arguments.length,t=Array(e),r=0;r<e;r++)t[r]=arguments[r];return t.filter((e,t,r)=>!!e&&r.indexOf(e)===t).join(" ")};/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */var i={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round"};/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let o=(0,s.forwardRef)((e,t)=>{let{color:r="currentColor",size:n=24,strokeWidth:o=2,absoluteStrokeWidth:d,className:l="",children:c,iconNode:u,...m}=e;return(0,s.createElement)("svg",{ref:t,...i,width:n,height:n,stroke:r,strokeWidth:d?24*Number(o)/Number(n):o,className:a("lucide",l),...m},[...u.map(e=>{let[t,r]=e;return(0,s.createElement)(t,r)}),...Array.isArray(c)?c:[c]])}),d=(e,t)=>{let r=(0,s.forwardRef)((r,i)=>{let{className:d,...l}=r;return(0,s.createElement)(o,{ref:i,iconNode:t,className:a("lucide-".concat(n(e)),d),...l})});return r.displayName="".concat(e),r}},6463:function(e,t,r){"use strict";var s=r(1169);r.o(s,"useRouter")&&r.d(t,{useRouter:function(){return s.useRouter}})}},function(e){e.O(0,[971,23,744],function(){return e(e.s=1032)}),_N_E=e.O()}]);

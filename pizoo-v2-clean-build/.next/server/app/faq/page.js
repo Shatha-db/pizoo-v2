@@ -1,0 +1,66 @@
+(()=>{var e={};e.id=799,e.ids=[799],e.modules={7849:e=>{"use strict";e.exports=require("next/dist/client/components/action-async-storage.external")},2934:e=>{"use strict";e.exports=require("next/dist/client/components/action-async-storage.external.js")},5403:e=>{"use strict";e.exports=require("next/dist/client/components/request-async-storage.external")},4580:e=>{"use strict";e.exports=require("next/dist/client/components/request-async-storage.external.js")},4749:e=>{"use strict";e.exports=require("next/dist/client/components/static-generation-async-storage.external")},5869:e=>{"use strict";e.exports=require("next/dist/client/components/static-generation-async-storage.external.js")},399:e=>{"use strict";e.exports=require("next/dist/compiled/next-server/app-page.runtime.prod.js")},5089:(e,t,o)=>{"use strict";o.r(t),o.d(t,{GlobalError:()=>n.a,__next_app__:()=>d,originalPathname:()=>p,pages:()=>u,routeModule:()=>m,tree:()=>c}),o(3124),o(1506),o(5866);var r=o(3191),s=o(8716),i=o(7922),n=o.n(i),a=o(5231),l={};for(let e in a)0>["default","tree","pages","GlobalError","originalPathname","__next_app__","routeModule"].indexOf(e)&&(l[e]=()=>a[e]);o.d(t,l);let c=["",{children:["faq",{children:["__PAGE__",{},{page:[()=>Promise.resolve().then(o.bind(o,3124)),"/app/pizoo-v2/frontend/app/faq/page.tsx"]}]},{}]},{layout:[()=>Promise.resolve().then(o.bind(o,1506)),"/app/pizoo-v2/frontend/app/layout.tsx"],"not-found":[()=>Promise.resolve().then(o.t.bind(o,5866,23)),"next/dist/client/components/not-found-error"]}],u=["/app/pizoo-v2/frontend/app/faq/page.tsx"],p="/faq/page",d={require:o,loadChunk:()=>Promise.resolve()},m=new r.AppPageRouteModule({definition:{kind:s.x.APP_PAGE,page:"/faq/page",pathname:"/faq",bundlePath:"",filename:"",appPaths:[]},userland:{loaderTree:c}})},9457:(e,t,o)=>{Promise.resolve().then(o.bind(o,6553)),Promise.resolve().then(o.bind(o,6361)),Promise.resolve().then(o.t.bind(o,9404,23))},6553:(e,t,o)=>{"use strict";o.d(t,{default:()=>n});var r=o(326),s=o(7577);/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,o(2881).Z)("ChevronDown",[["path",{d:"m6 9 6 6 6-6",key:"qrunsl"}]]);function n(){let[e,t]=(0,s.useState)(null);return r.jsx("div",{className:"space-y-4",children:[{question:"How do I create an account on Pizoo?",answer:"Creating an account is easy! Download the Pizoo app from the App Store or Google Play, then sign up using your phone number, email, or social media account. Complete your profile with photos and information about yourself, and you're ready to start swiping!"},{question:"Is Pizoo free to use?",answer:"Yes, Pizoo is free to download and use. We offer basic features at no cost, including swiping, matching, and messaging. For users who want enhanced features like unlimited swipes, Super Swipes, and profile boosts, we offer Pizoo Premium subscriptions."},{question:"How does the matching algorithm work?",answer:"Our smart matching algorithm considers multiple factors including your location, age preferences, interests, and activity patterns. The more you use Pizoo, the better our algorithm becomes at suggesting compatible matches for you."},{question:"How can I stay safe while using Pizoo?",answer:"Safety is our top priority. Always meet in public places for first dates, never share personal or financial information, trust your instincts, and use our in-app safety features like profile verification and reporting. Read our Safety Center for more detailed tips."},{question:"Can I change my location?",answer:"With Pizoo Premium, you can change your location to swipe and match with people in different cities. This is perfect for travelers or those planning to relocate. Free users can only see matches in their current location."},{question:"How do I verify my profile?",answer:'Profile verification helps build trust in our community. To verify your profile, go to your settings and select "Verify Profile." You\'ll be prompted to take a selfie that matches specific poses. Our system will compare it to your profile photos to confirm your identity.'},{question:"What should I do if I encounter inappropriate behavior?",answer:"If someone violates our community guidelines, please report them immediately using the report button on their profile or in your conversation. Our team reviews all reports and takes appropriate action, which may include warnings or permanent bans."},{question:"How do I delete my account?",answer:"We're sorry to see you go! To delete your account, go to Settings > Account > Delete Account. Keep in mind that this action is permanent and cannot be undone. All your matches, messages, and profile information will be permanently deleted."},{question:"Can I use Pizoo on multiple devices?",answer:"Yes! You can access your Pizoo account from multiple devices. Simply log in with your credentials on any device, and your profile, matches, and conversations will sync automatically."},{question:"What is a Super Swipe?",answer:"A Super Swipe is a special way to show someone you're really interested. When you Super Swipe someone, they'll be notified that you like them before they even swipe on your profile, helping you stand out from other users."}].map((o,s)=>(0,r.jsxs)("div",{className:"bg-white rounded-2xl shadow-lg overflow-hidden","data-testid":`faq-item-${s}`,children:[(0,r.jsxs)("button",{onClick:()=>t(e===s?null:s),className:"w-full px-6 py-5 text-left flex items-center justify-between hover:bg-gray-50 transition-colors","data-testid":`faq-button-${s}`,children:[r.jsx("span",{className:"font-semibold text-lg pr-8",children:o.question}),r.jsx(i,{className:`w-5 h-5 text-pizoo-purple transition-transform flex-shrink-0 ${e===s?"transform rotate-180":""}`})]}),r.jsx("div",{className:`overflow-hidden transition-all duration-300 ${e===s?"max-h-96":"max-h-0"}`,children:r.jsx("div",{className:"px-6 pb-5 text-gray-600 leading-relaxed",children:o.answer})})]},s))})}},4014:(e,t,o)=>{"use strict";o.d(t,{Z:()=>r});/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let r=(0,o(2881).Z)("Globe",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20",key:"13o1zl"}],["path",{d:"M2 12h20",key:"9i4pu4"}]])},748:(e,t,o)=>{"use strict";o.d(t,{Z:()=>r});/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let r=(0,o(2881).Z)("Menu",[["line",{x1:"4",x2:"20",y1:"12",y2:"12",key:"1e0a9i"}],["line",{x1:"4",x2:"20",y1:"6",y2:"6",key:"1owob3"}],["line",{x1:"4",x2:"20",y1:"18",y2:"18",key:"yk5zj1"}]])},4019:(e,t,o)=>{"use strict";o.d(t,{Z:()=>r});/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let r=(0,o(2881).Z)("X",[["path",{d:"M18 6 6 18",key:"1bl5f8"}],["path",{d:"m6 6 12 12",key:"d8bk6v"}]])},3124:(e,t,o)=>{"use strict";o.r(t),o.d(t,{default:()=>p});var r=o(9510),s=o(6065),i=o(6138),n=o(8570);let a=(0,n.createProxy)(String.raw`/app/pizoo-v2/frontend/components/faq/FAQAccordion.tsx`),{__esModule:l,$$typeof:c}=a;a.default;let u=(0,n.createProxy)(String.raw`/app/pizoo-v2/frontend/components/faq/FAQAccordion.tsx#default`);function p(){return(0,r.jsxs)("main",{className:"min-h-screen",children:[r.jsx(s.ZP,{}),r.jsx("div",{className:"pt-24 pb-16 bg-gradient-to-br from-pizoo-lightPink/30 via-white to-purple-100/30",children:(0,r.jsxs)("div",{className:"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center",children:[r.jsx("h1",{className:"text-5xl font-display font-bold mb-6",children:r.jsx("span",{className:"text-gradient",children:"FAQ"})}),r.jsx("p",{className:"text-xl text-gray-600 max-w-3xl mx-auto",children:"Find answers to common questions about Pizoo."})]})}),r.jsx("div",{className:"py-20",children:r.jsx("div",{className:"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8",children:r.jsx(u,{})})}),r.jsx(i.Z,{})]})}},7162:(e,t,o)=>{"use strict";o.d(t,{Z:()=>l});var r=o(1159);/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let s=e=>e.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),i=(...e)=>e.filter((e,t,o)=>!!e&&o.indexOf(e)===t).join(" ");/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */var n={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round"};/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let a=(0,r.forwardRef)(({color:e="currentColor",size:t=24,strokeWidth:o=2,absoluteStrokeWidth:s,className:a="",children:l,iconNode:c,...u},p)=>(0,r.createElement)("svg",{ref:p,...n,width:t,height:t,stroke:e,strokeWidth:s?24*Number(o)/Number(t):o,className:i("lucide",a),...u},[...c.map(([e,t])=>(0,r.createElement)(e,t)),...Array.isArray(l)?l:[l]])),l=(e,t)=>{let o=(0,r.forwardRef)(({className:o,...n},l)=>(0,r.createElement)(a,{ref:l,iconNode:t,className:i(`lucide-${s(e)}`,o),...n}));return o.displayName=`${e}`,o}},6076:(e,t,o)=>{"use strict";o.d(t,{Z:()=>r});/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let r=(0,o(7162).Z)("Apple",[["path",{d:"M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z",key:"3s7exb"}],["path",{d:"M10 2c1 .5 2 2 2 5",key:"fcco2y"}]])},2528:(e,t,o)=>{"use strict";o.d(t,{Z:()=>r});/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let r=(0,o(7162).Z)("Facebook",[["path",{d:"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z",key:"1jg4f8"}]])},2749:(e,t,o)=>{"use strict";o.d(t,{Z:()=>r});/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let r=(0,o(7162).Z)("Instagram",[["rect",{width:"20",height:"20",x:"2",y:"2",rx:"5",ry:"5",key:"2e1cvw"}],["path",{d:"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z",key:"9exkf1"}],["line",{x1:"17.5",x2:"17.51",y1:"6.5",y2:"6.5",key:"r4j83e"}]])},9917:(e,t,o)=>{"use strict";o.d(t,{Z:()=>r});/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let r=(0,o(7162).Z)("Play",[["polygon",{points:"6 3 20 12 6 21 6 3",key:"1oa8hb"}]])},429:(e,t,o)=>{"use strict";o.d(t,{Z:()=>r});/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let r=(0,o(7162).Z)("Twitter",[["path",{d:"M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z",key:"pff0z6"}]])},8973:(e,t,o)=>{"use strict";o.d(t,{Z:()=>r});/**
+ * @license lucide-react v0.397.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let r=(0,o(7162).Z)("Youtube",[["path",{d:"M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17",key:"1q2vi4"}],["path",{d:"m10 15 5-3-5-3z",key:"1jp15x"}]])},7371:(e,t,o)=>{"use strict";o.d(t,{default:()=>s.a});var r=o(1812),s=o.n(r)},1812:(e,t,o)=>{"use strict";let{createProxy:r}=o(8570);e.exports=r("/app/pizoo-v2/frontend/node_modules/next/dist/client/link.js")}};var t=require("../../webpack-runtime.js");t.C(e);var o=e=>t(t.s=e),r=t.X(0,[347,705,895],()=>o(5089));module.exports=r})();
