@@ -72,6 +72,7 @@ export default function DownloadSection() {
                 <div className="text-sm text-white/80">Satisfaction</div>
               </div>
             </div>
+            </div>
           </motion.div>
 
           {/* Right Image */}
