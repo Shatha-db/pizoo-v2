@@ -92,21 +92,13 @@ export default function DownloadSection() {
               </div>
 
               {/* Floating Elements */}
-              <motion.div
-                animate={{ y: [0, -20, 0] }}
-                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -top-10 -right-10 bg-white p-4 rounded-2xl shadow-xl"
-              >
+              <div className="absolute -top-10 -right-10 bg-white p-4 rounded-2xl shadow-xl animate-float">
                 <div className="text-4xl">💬</div>
-              </motion.div>
+              </div>
 
-              <motion.div
-                animate={{ y: [0, 20, 0] }}
-                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -bottom-10 -left-10 bg-white p-4 rounded-2xl shadow-xl"
-              >
+              <div className="absolute -bottom-10 -left-10 bg-white p-4 rounded-2xl shadow-xl animate-float">
                 <div className="text-4xl">❤️</div>
-              </motion.div>
+              </div>
             </div>
             </div>
           </motion.div>
