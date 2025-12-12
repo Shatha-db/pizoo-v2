@@ -60,6 +60,7 @@ export default function FeaturesSection() {
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Everything you need to find meaningful connections and start something special.
           </p>
+          </div>
         </motion.div>
 
         {/* Features Grid */}
